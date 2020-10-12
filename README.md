@@ -17,8 +17,8 @@ Ensure that you have [Python3](https://www.python.org/download/releases/3.0/), a
 We need Install some python pip packages. 
 
 ```bash
-qrcode==6.1
-Pillow==7.2.0
+Flask==1.1.2
+flask_sqlalchemy==2.4.4
 ```
 
 #### Pip install Instructions
@@ -33,7 +33,7 @@ pip3 install -r requirements.txt
 ### Run App
 
 ```
-python qrcode.py
+python app.py
 ```
 ![Screenshot_20200716_002838](https://user-images.githubusercontent.com/12425488/87582060-ad9c1600-c6fb-11ea-81de-844d3946ce24.png)
 
